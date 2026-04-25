@@ -76,9 +76,9 @@ const PROJECTS_RAW = [
     ],
     // ── ADD YOUR MEDIA BELOW ─────────────────────────────────────
     images: [
-      // { url: "/images/wind-tunnel-cad.png",  caption: "Siemens NX CAD assembly" },
-      // { url: "/images/wind-tunnel-pcb.jpg",  caption: "Dual-layer PCB layout"   },
-      // { url: "/images/wind-tunnel-test.jpg", caption: "Tunnel test run"          },
+       { url: "/images/PCB.png",  caption: "Final PCB Design" },
+       { url: "/images/Flow straightener.png",  caption: "Flow straightener CAD"   },
+       { url: "/images/Initial Tunnel.jpg", caption: "Tunnel cad"          },
     ],
     docs: [
       // { url: "/docs/wind-tunnel-report.pdf", name: "Project Report.pdf", label: "PDF" },
