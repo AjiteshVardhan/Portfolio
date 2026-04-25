@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__gemini__generate_text",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
