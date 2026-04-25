@@ -868,14 +868,14 @@ function Nav({ scrolled, scrollTo }) {
 ───────────────────────────────────────────────────────────────── */
 function Hero({ scrollTo }) {
   return (
-    <section id="hero" className="relative bg-slate-950 min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="hero" className="relative bg-slate-950 min-h-[70vh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 pointer-events-none" style={{
         backgroundImage:"linear-gradient(rgba(255,255,255,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.025) 1px,transparent 1px)",
         backgroundSize:"40px 40px",
       }} />
       <div className="absolute inset-0 pointer-events-none" style={{ background:"radial-gradient(ellipse 80% 60% at 50% 60%,transparent 40%,#020617 100%)" }} />
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10 py-16 sm:py-24 md:py-32 lg:py-40 w-full">
+      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10 py-12 sm:py-16 md:py-20 lg:py-24 w-full">
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-2 bg-slate-800 border border-slate-700 rounded-full px-3.5 py-1.5 mb-8" style={{ animation:"fadeUp 0.5s 0.1s ease both" }}>
             <span className="w-2 h-2 rounded-full bg-emerald-400" />
