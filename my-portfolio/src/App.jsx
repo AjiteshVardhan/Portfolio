@@ -845,7 +845,7 @@ function ProjectCard({ project, onClick, orderLabel }) {
 ───────────────────────────────────────────────────────────────── */
 function Nav({ scrolled, scrollTo }) {
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${scrolled ? "bg-slate-950/95 border-b border-slate-800 backdrop-blur-xl" : ""}`}>
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-slate-950/95 border-b border-slate-800 backdrop-blur-xl" : "bg-gradient-to-b from-slate-950/50 to-transparent"}`}>
       <div className="max-w-6xl mx-auto px-5 md:px-8 h-14 flex items-center justify-between">
         <button onClick={() => scrollTo("hero")} className="font-bold text-sm text-white tracking-wide">
           AV<span className="text-blue-500">.</span>
@@ -875,7 +875,7 @@ function Hero({ scrollTo }) {
       }} />
       <div className="absolute inset-0 pointer-events-none" style={{ background:"radial-gradient(ellipse 80% 60% at 50% 60%,transparent 40%,#020617 100%)" }} />
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10 py-12 sm:py-16 md:py-20 lg:py-24 w-full">
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-10 py-12 sm:py-16 md:py-20 lg:py-24 w-full">
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-2 bg-slate-800 border border-slate-700 rounded-full px-3.5 py-1.5 mb-8" style={{ animation:"fadeUp 0.5s 0.1s ease both" }}>
             <span className="w-2 h-2 rounded-full bg-emerald-400" />
